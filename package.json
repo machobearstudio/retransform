@@ -1,0 +1,29 @@
+{
+  "name": "remap",
+  "version": "1.0.0",
+  "description": "Recursive object transformer",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:machobearstudio/remap.git"
+  },
+  "keywords": [
+    "object",
+    "transformer",
+    "recursion",
+    "map",
+    "pipeline"
+  ],
+  "author": "Machobear Studio Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "poly-filter": "^1.0.2",
+    "poly-map": "^1.1.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
