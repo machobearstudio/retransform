@@ -1,6 +1,6 @@
 var translator = require('./translator')
 
-function remap() {
+function retransform() {
   var args = [].slice.call(arguments, 0)
   var lens = translator(args[0])
 
@@ -11,4 +11,4 @@ function remap() {
   return lens.apply(undefined, args.slice(1))
 }
 
-module.exports = remap
+module.exports = retransform

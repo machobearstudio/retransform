@@ -1,20 +1,20 @@
-# remap
-A powerful functional-style object transformation tool.
+# retransform
+Functional-style object transformation tool.
 
 ## Features
 - Curried
-- Recursive: supports nested objects. You can remap remaps
+- Recursive: supports nested objects and arrays
 
 ## Installation
 
 ```
-npm install remap
+npm install retransform
 ```
 
 ## Usage
 
 ```javascript
-var updateRequest = remap({
+var updateRequest = retransform({
     url: x => `http://mydomain.com/comments/${x.id}`
     method: 'PUT'
     body: {
@@ -23,7 +23,7 @@ var updateRequest = remap({
     }
 });
 
-var formatResponse = remap({
+var formatResponse = retransform({
     comments: data => data,
     status: 'ok'
 });

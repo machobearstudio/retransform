@@ -1,5 +1,5 @@
 {
-  "name": "remap",
+  "name": "retransform",
   "version": "1.0.0",
   "description": "Recursive object transformer",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:machobearstudio/remap.git"
+    "url": "git@github.com:machobearstudio/retransform.git"
   },
   "keywords": [
     "object",
